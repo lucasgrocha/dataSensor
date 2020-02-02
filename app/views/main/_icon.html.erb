@@ -1,0 +1,10 @@
+<div style="width: <%= width %>">
+  <%= ((
+    Icodi.new(
+    text,
+    pixels: 5,
+    density: 0.5,
+    mirror: :x).render)
+    .html_safe
+  ) %>
+</div>

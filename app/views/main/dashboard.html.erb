@@ -1,0 +1,3 @@
+<%= render partial: 'icon', locals: { text: current_user.email, width: '10.5rem' } %>
+
+<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
