@@ -90,6 +90,12 @@ GEM
     et-orbi (1.2.2)
       tzinfo
     execjs (2.7.0)
+    factory_bot (5.1.1)
+      activesupport (>= 4.2.0)
+    factory_bot_rails (5.1.1)
+      factory_bot (~> 5.1.0)
+      railties (>= 4.2.0)
+    ffaker (2.11.0)
     ffi (1.12.1)
     fugit (1.3.3)
       et-orbi (~> 1.1, >= 1.1.8)
@@ -252,6 +258,8 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   dotenv-rails
+  factory_bot_rails
+  ffaker
   httparty
   icodi
   jbuilder (~> 2.5)
