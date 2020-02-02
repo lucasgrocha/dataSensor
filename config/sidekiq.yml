@@ -1,0 +1,4 @@
+:schedule:
+  daily_sensor_update:
+    cron: '0 * * * * *'   # Runs once per minute
+    class: DailySensorUpdateJob

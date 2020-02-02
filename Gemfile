@@ -6,6 +6,13 @@ ruby '2.5.3'
 gem 'devise'
 gem 'icodi'
 
+gem 'redis'
+gem 'sidekiq'
+gem 'rack', '2.0.8'
+gem 'httparty'
+gem 'pry-rails'
+gem 'sidekiq-scheduler'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 # Use postgresql as the database for Active Record
