@@ -3,6 +3,6 @@ class DailySensorUpdateJob
 
   def perform
     data = HTTParty.get ENV["DATASENSORURL"]
-    SensorInfo.create(data: data, run_date: DateTime.now.utc, manual: false)
+    SensorInfo.create(data: data, run_date: DateTime.now.utc, manual: false, user_id: nil)
   end
 end
