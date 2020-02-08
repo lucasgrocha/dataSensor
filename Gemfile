@@ -8,7 +8,7 @@ gem 'icodi'
 
 gem 'redis'
 gem 'sidekiq'
-gem 'rack', '2.0.8'
+gem 'rack', '2.1.2'
 gem 'httparty'
 gem 'sidekiq-scheduler'
 gem 'rolify'
