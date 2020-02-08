@@ -7,7 +7,6 @@ FactoryBot.define do
 
   factory :sensor_info do
     data      { { light_sensor: rand(0..100), sound_sensor: rand(0..1) } }
-    run_date  { DateTime.now }
     manual    { [true, false].sample }
     user_id   { nil }
     latitude  { FFaker::Geolocation.lat }

@@ -6,7 +6,7 @@ class DailySensorUpdateJob
 
     data = HTTParty.get ENV["DATASENSORURL"]
     User.all.each do |user|
-      SensorInfo.create(data: data, run_date: DateTime.now.utc, manual: false, user: nil || user)
+      SensorInfo.create(data: data, manual: false, user: nil || user)
     end
   end
 end
