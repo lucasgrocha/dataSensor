@@ -3,7 +3,6 @@ FactoryBot.define do
     name     { FFaker::Name.name }
     email    { FFaker::Internet.free_email }
     password { 123456 }
-    premium  { [true, false].sample }
   end
 
   factory :sensor_info do

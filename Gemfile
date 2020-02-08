@@ -11,6 +11,7 @@ gem 'sidekiq'
 gem 'rack', '2.0.8'
 gem 'httparty'
 gem 'sidekiq-scheduler'
+gem 'rolify'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
